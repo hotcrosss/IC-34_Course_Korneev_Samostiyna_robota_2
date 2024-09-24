@@ -1,0 +1,52 @@
+* {
+    text-align: left;
+    color: gray;
+}
+/*Стилі для пунктів*/
+.hd{
+    color: red;
+}
+.hd3{
+    color: coral;
+}
+/*-------------------*/
+
+/*1.1 CSS Синтаксис*/
+#p1{
+    
+    color: red;
+    /* Це однорядковий коментар */
+    text-align: center;
+    /* Це
+    багаторядковий
+    коментар */
+}
+/*--------------------*/
+
+/*1.2 Селектори*/
+/*Селектор елемента*/
+p{
+    color: grey;
+}
+/*Селектор id*/
+#para{
+    color: blue;
+}
+/*Селектор класу*/
+.center {
+    text-align: center;
+    color: red;
+}
+.blue{
+    color: blue;
+}
+/*Універсальний селектор */
+* {
+    text-align: left;
+    color: gray;
+}
+/*Селектор групування*/
+h4, h2{
+    text-align: right;
+    color: rgb(4, 0, 255);
+}
