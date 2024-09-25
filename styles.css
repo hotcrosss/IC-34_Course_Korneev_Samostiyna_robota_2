@@ -155,3 +155,55 @@ p.one {
     border: 2px solid red;
     border-radius: 12px;
   }
+  .div1 {
+    margin: 70px;
+    border: 1px solid #4CAF50;
+  }
+  .div2 {
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+  }
+  .div3{
+    width:300px;
+    margin: auto;
+     border: 1px solid red;
+  }
+  p.ex1 {
+    margin-left: inherit;
+  }
+  .div4{
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  .div5 {
+    padding: 70px;
+    border: 1px solid #4CAF50;
+  }
+  .div6 {
+    width: 100%;
+    border: 1px solid #4CAF50;
+  }
+  .div7{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+  }
+  .div8{
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+  }
+  .div9{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+  .div10{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
