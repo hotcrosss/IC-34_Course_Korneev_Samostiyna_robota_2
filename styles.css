@@ -1,209 +1,432 @@
 * {
-    text-align: left;
-    color: gray;
+  text-align: left;
+  color: gray;
 }
+
 /*Стилі для пунктів*/
-.hd{
-    color: red;
+.hd {
+  color: red;
 }
-.hd3{
-    color: coral;
+
+.hd3 {
+  color: coral;
 }
+
 /*-------------------*/
 
 /*1.1 CSS Синтаксис*/
-#p1{
-    
-    color: red;
-    /* Це однорядковий коментар */
-    text-align: center;
-    /* Це
+#p1 {
+
+  color: red;
+  /* Це однорядковий коментар */
+  text-align: center;
+  /* Це
     багаторядковий
     коментар */
 }
+
 /*--------------------*/
 
 /*1.2 Селектори*/
 /*Селектор елемента*/
-p{
-    color: grey;
+p {
+  color: grey;
 }
+
 /*Селектор id*/
-#para{
-    color: blue;
+#para {
+  color: blue;
 }
+
 /*Селектор класу*/
 .center {
-    text-align: center;
-    color: red;
+  text-align: center;
+  color: red;
 }
-.blue{
-    color: blue;
+
+.blue {
+  color: blue;
 }
+
 /*Універсальний селектор */
 * {
-    text-align: left;
-    color: gray;
+  text-align: left;
+  color: gray;
 }
+
 /*Селектор групування*/
-h4, h2{
-    text-align: right;
-    color: rgb(4, 0, 255);
+h4,
+h2 {
+  text-align: right;
+  color: rgb(4, 0, 255);
 }
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;}
-p.outset {border-style: outset;}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}
+
+p.dotted {
+  border-style: dotted;
+}
+
+p.dashed {
+  border-style: dashed;
+}
+
+p.solid {
+  border-style: solid;
+}
+
+p.double {
+  border-style: double;
+}
+
+p.groove {
+  border-style: groove;
+}
+
+p.ridge {
+  border-style: ridge;
+}
+
+p.inset {
+  border-style: inset;
+}
+
+p.outset {
+  border-style: outset;
+}
+
+p.none {
+  border-style: none;
+}
+
+p.hidden {
+  border-style: hidden;
+}
+
+p.mix {
+  border-style: dotted dashed solid double;
+}
+
 p.one {
-    border-style: solid;
-    border-width: 5px;
-  }
-  
-  p.two {
-    border-style: solid;
-    border-width: medium;
-  }
-  
-  p.three {
-    border-style: dotted;
-    border-width: 2px;
-  }
-  
-  p.four {
-    border-style: dotted;
-    border-width: thick;
-  }
-  
-  p.five {
-    border-style: double;
-    border-width: 15px;
-  }
-  
-  p.six {
-    border-style: double;
-    border-width: thick;
-  }
-  p.onee {
-    border-style: solid;
-    border-width: 5px 20px; 
-  }
-  
-  p.twoo {
-    border-style: solid;
-    border-width: 20px 5px; 
-  }
-  
-  p.threee {
-    border-style: solid;
-    border-width: 25px 10px 4px 35px;
-  }
-  p.oneee {
-    border-style: solid;
-    border-color: red;
-  }
-  
-  p.twooo {
-    border-style: solid;
-    border-color: green;
-  }
-  
-  p.threeee {
-    border-style: dotted;
-    border-color: blue;
-  }
-  /* Четыре значения */
-    p.fourt {
-    border-style: dotted solid double dashed;
-  }
-  
-  /* Три значения */
-  p.threet {
-    border-style: dotted solid double;
-  }
-  
-  /* Два значения */
-  p.twot {
-    border-style: dotted solid;
-  }
-  
-  /* Одно значение */
-  p.onet {
-    border-style: dotted;
-  }
-  p.normal {
-    border: 2px solid red;
-  }
-  
-  p.round1 {
-    border: 2px solid red;
-    border-radius: 5px;
-  }
-  
-  p.round2 {
-    border: 2px solid red;
-    border-radius: 8px;
-  }
-  
-  p.round3 {
-    border: 2px solid red;
-    border-radius: 12px;
-  }
-  .div1 {
-    margin: 70px;
-    border: 1px solid #4CAF50;
-  }
-  .div2 {
-    border: 1px solid black;
-    margin: 25px 50px 75px 100px;
-    background-color: lightblue;
-  }
-  .div3{
-    width:300px;
-    margin: auto;
-     border: 1px solid red;
-  }
-  p.ex1 {
-    margin-left: inherit;
-  }
-  .div4{
-    border: 1px solid red;
-    margin-left: 100px;
-  }
-  .div5 {
-    padding: 70px;
-    border: 1px solid #4CAF50;
-  }
-  .div6 {
-    width: 100%;
-    border: 1px solid #4CAF50;
-  }
-  .div7{
-    height: 200px;
-    width: 50%;
-    background-color: powderblue;
-  }
-  .div8{
-    max-width: 500px;
-    height: 100px;
-    background-color: powderblue;
-  }
-  .div9{
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
-  .div10{
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-  }
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+}
+
+p.onee {
+  border-style: solid;
+  border-width: 5px 20px;
+}
+
+p.twoo {
+  border-style: solid;
+  border-width: 20px 5px;
+}
+
+p.threee {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px;
+}
+
+p.oneee {
+  border-style: solid;
+  border-color: red;
+}
+
+p.twooo {
+  border-style: solid;
+  border-color: green;
+}
+
+p.threeee {
+  border-style: dotted;
+  border-color: blue;
+}
+
+/* Четыре значения */
+p.fourt {
+  border-style: dotted solid double dashed;
+}
+
+/* Три значения */
+p.threet {
+  border-style: dotted solid double;
+}
+
+/* Два значения */
+p.twot {
+  border-style: dotted solid;
+}
+
+/* Одно значение */
+p.onet {
+  border-style: dotted;
+}
+
+p.normal {
+  border: 2px solid red;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+.div1 {
+  margin: 70px;
+  border: 1px solid #4CAF50;
+}
+
+.div2 {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+
+.div3 {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+
+.div4 {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+.div5 {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+
+.div6 {
+  width: 100%;
+  border: 1px solid #4CAF50;
+}
+
+.div7 {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+.div8 {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+
+.div9 {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.div10 {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+.pa:link {
+  color: red;
+}
+
+/* відвідуване посилання */
+.pa:visited {
+  color: green;
+}
+
+/* посилання при наведенні миші */
+.pa:hover {
+  color: hotpink;
+}
+
+/* активне посилання */
+.pa:active {
+  color: blue;
+}
+
+.ka:link {
+  text-decoration: none;
+}
+
+.ka:visited {
+  text-decoration: none;
+}
+
+.ka:hover {
+  text-decoration: underline;
+}
+
+.ka:active {
+  text-decoration: underline;
+}
+
+.la:link {
+  background-color: yellow;
+}
+
+.la:visited {
+  background-color: cyan;
+}
+
+.la:hover {
+  background-color: lightgreen;
+}
+
+.la:active {
+  background-color: hotpink;
+}
+
+.ma:link,
+.ma:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ma:hover,
+.ma:active {
+  background-color: red;
+}
+
+a.one:link {
+  color: #ff0000;
+}
+
+a.one:visited {
+  color: #0000ff;
+}
+
+a.one:hover {
+  color: #ffcc00;
+}
+
+a.two:link {
+  color: #ff0000;
+}
+
+a.two:visited {
+  color: #0000ff;
+}
+
+a.two:hover {
+  font-size: 150%;
+}
+
+a.three:link {
+  color: #ff0000;
+}
+
+a.three:visited {
+  color: #0000ff;
+}
+
+a.three:hover {
+  background: #66ff66;
+}
+
+a.four:link {
+  color: #ff0000;
+}
+
+a.four:visited {
+  color: #0000ff;
+}
+
+a.four:hover {
+  font-family: monospace;
+}
+
+a.five:link {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a.five:visited {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a.five:hover {
+  text-decoration: underline;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+.lil {
+  background: #ff9999;
+  padding: 20px;
+}
+
+.lol {
+  background: #3399ff;
+  padding: 20px;
+}
+
+.lil li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.lol li {
+  background: #cce5ff;
+  margin: 5px;
+}
